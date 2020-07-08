@@ -39,7 +39,7 @@ class Solution(object):
         grid = list(map(lambda x:self.f(x),grid))
         return sum(grid)
 
-import numpy as np
-class Solution:
-    def countNegatives(self, grid: List[List[int]]) -> int:
-        return int((np.array(grid)<0).sum())
+# import numpy as np
+# class Solution:
+#     def countNegatives(self, grid: List[List[int]]) -> int:
+#         return int((np.array(grid)<0).sum())
