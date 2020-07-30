@@ -22,6 +22,7 @@
 1 <= nums.length <= 100
 1 <= nums[i] <= 100
 '''
+import collections
 
 """
 方法一：暴力统计
